@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Orange HRM]">
+  <listeners>
+    <listener class-name="com.extentReports.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.Testcases.LoginPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- com.Testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Orange HRM] -->
